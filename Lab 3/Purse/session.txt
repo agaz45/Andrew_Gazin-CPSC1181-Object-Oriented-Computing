@@ -1,0 +1,25 @@
+>C:\Program Files\Java\jdk1.7.0_25\bin\java -ea -classpath . PurseTester
+
+a = Purse[(quarter,25), (dime,10), (nickel,5), (dime,10)]
+b = Purse[(nickel,5), (dime,10), (dime,10), (quarter,25)]
+
+Do a and b have the same coins? true and true
+Expected: true and true
+
+
+c = Purse[(quarter,25), (penny,1), (nickel,5), (dime,10)]
+d = Purse[(nickel,5), (dime,10), (dime,10), (quarter,25)]
+e = Purse[]
+
+Do c and d have the same coins? false and false
+Expected: false and false
+
+Do d and e have the same coins? false and false
+Expected: false and false
+
+f = null
+
+Do a and f have the same coins? false and false
+Expected: false and false
+
+>Exit code: 0

@@ -1,0 +1,4 @@
+There are a two major errors in this program that i can find. 
+The withdraw function is not calculating correctly and cutting a value short by around 1.
+Another error is a bank account can go negative in this program. 
+This should not be allowed, due to them withdrawing money that is not theirs.

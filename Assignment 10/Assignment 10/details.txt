@@ -1,0 +1,2 @@
+-Player 1 always starts
+-If the players have the same amount of pairs at the end. The player that started second wins
