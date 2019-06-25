@@ -1,6 +1,0 @@
-There is a bug when counting the number of times 5 is rolled. 
-No matter how many times you add 5 to the counter, the output is still 0.
-A better description would be This class counts the amount of times a number 
-has been rolled on the dice.
-For using this class in a dice game, you would need a random element added to 
-the dice to make it unpredictable (making it a game)
